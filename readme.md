@@ -20,7 +20,7 @@ $ npm install
 $ node app.js
 ```
 
-接口完成，具体详情可以参考[网易云 API ](#https://binaryify.github.io/NeteaseCloudMusicApi/#/)
+接口完成，具体详情可以参考[网易云 API ](https://binaryify.github.io/NeteaseCloudMusicApi/#/)
 
 
 
