@@ -9,6 +9,7 @@ const app = dva();
 // console.log(require('./models/example').default)
 // console.log(require('./models/count'))
 app.model(require('./models/count').default)
+app.model(require('./models/example').default)
 // 4. Router
 app.router(require('./router').default);
 

@@ -1,4 +1,4 @@
-import { request } from '../../utils/request'
+import { request } from '../utils/request'
 
 export default {
     namespace: 'mycount',
@@ -15,10 +15,10 @@ export default {
             return {num: newNum}  
         }
     },
-    effects:{
-        * getMusicData(key){
-            const music_data = yield request(`http://localhost:3000/search?keywords=${key}`)
-        }
-    }
+    // effects:{
+    //     * getMusicData(key){
+    //         const music_data = yield request(`http://localhost:3000/search?keywords=${key}`)
+    //     }
+    // }
 
 }

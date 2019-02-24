@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'dva'
 
-const Example = ({num,dispatch}) => {
+const Example = (props) => {
+  const {num,dispatch} = props
   const add = () => {
     dispatch({
       type:'mycount/add'
@@ -26,6 +27,7 @@ Example.propTypes = {
 
 };
 const mapStateToprops = (state) => {
+  console.log(state)
   return {
     num: state.mycount.num
   }
